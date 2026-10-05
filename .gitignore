@@ -24,3 +24,8 @@ picks/
 # Python bytecode.
 __pycache__/
 *.pyc
+
+# Archives. nhl.zip and old.zip are 21MB between them and are snapshots, not
+# source; they were untracked and unignored until 2026-10-05, so any 'git add -A'
+# would have committed them.
+*.zip
